@@ -1,0 +1,13 @@
+train: /home/jovyan/event_badge-1/train/images
+val: /home/jovyan/event_badge-1/valid/images
+test: /home/jovyan/event_badge-1/test/images
+
+nc: 1
+names: ['name']
+
+roboflow:
+  workspace: mateofloreza
+  project: event_badge
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/mateofloreza/event_badge/dataset/1
